@@ -1,10 +1,12 @@
 package model;
 
 public class AccountDetails{
+    
     private String accountType;
 	private double withdrawOrDepositAmount;
 	private double availableBalance;
-	private int pin;	
+	private int pin;
+	
 	
 	public AccountDetails(String accountType, double withdrawOrDepositAmount, double availableBalance, int pin) {
 		super();
@@ -38,4 +40,5 @@ public class AccountDetails{
 		this.pin = pin;
 	}
 
+	
 }
